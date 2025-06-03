@@ -1,0 +1,11 @@
+{
+  "item.lemon-tree.lemon": "Lemon",
+  "item.lemon-tree.lime": "Lime",
+
+  "block.lemon-tree.green_citrus_log": "Green Citrus Log",
+  "block.lemon-tree.green_citrus_wood": "Green Citrus Wood",
+  "block.lemon-tree.stripped_green_citrus_log": "Stripped Green Citrus Log",
+  "block.lemon-tree.stripped_green_citrus_wood": "Stripped Lemonwood Wood",
+
+  "block.lemon-tree.green_citrus_planks": "Green Citrus Planks"
+}
