@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "lemon-tree:block/green_citrus_log",
-    "side": "lemon-tree:block/green_citrus_log"
+    "end": "lemon-tree:block/citrus_log",
+    "side": "lemon-tree:block/citrus_log"
   }
 }

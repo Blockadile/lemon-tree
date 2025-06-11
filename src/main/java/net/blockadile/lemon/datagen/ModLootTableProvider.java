@@ -20,6 +20,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_GREEN_CITRUS_WOOD);
 
         addDrop(ModBlocks.GREEN_CITRUS_PLANKS);
-        //addDrop(ModBlocks.GREEN_CITRUS_STAIRS);
+        addDrop(ModBlocks.GREEN_CITRUS_STAIRS);
+
+        addDrop(ModBlocks.GOLDEN_CITRUS_LOG);
+        addDrop(ModBlocks.GOLDEN_CITRUS_WOOD);
+        addDrop(ModBlocks.STRIPPED_GOLDEN_CITRUS_LOG);
+        addDrop(ModBlocks.STRIPPED_GOLDEN_CITRUS_WOOD);
+
+        addDrop(ModBlocks.GOLDEN_CITRUS_PLANKS);
+        addDrop(ModBlocks.GOLDEN_CITRUS_STAIRS);
     }
 }

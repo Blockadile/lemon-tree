@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "lemon-tree:block/stripped_lemonwood_log_horizontal",
+      "model": "lemon-tree:block/stripped_green_citrus_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "lemon-tree:block/stripped_lemonwood_log"
+      "model": "lemon-tree:block/stripped_green_citrus_log"
     },
     "axis=z": {
-      "model": "lemon-tree:block/stripped_lemonwood_log_horizontal",
+      "model": "lemon-tree:block/stripped_green_citrus_log_horizontal",
       "x": 90
     }
   }

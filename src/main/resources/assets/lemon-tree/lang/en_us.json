@@ -7,5 +7,22 @@
   "block.lemon-tree.stripped_green_citrus_log": "Stripped Green Citrus Log",
   "block.lemon-tree.stripped_green_citrus_wood": "Stripped Lemonwood Wood",
 
-  "block.lemon-tree.green_citrus_planks": "Green Citrus Planks"
+  "block.lemon-tree.green_citrus_planks": "Green Citrus Planks",
+
+  "block.lemon-tree.green_citrus_stairs": "Green Citrus Stairs",
+  "block.lemon-tree.green_citrus_slab": "Green Citrus Slab",
+  "block.lemon-tree.green_citrus_fence": "Green Citrus Fence",
+  "block.lemon-tree.green_citrus_fence_gate": "Green Citrus Fence Gate",
+
+  "block.lemon-tree.golden_citrus_log": "Golden Citrus Log",
+  "block.lemon-tree.golden_citrus_wood": "Golden Citrus Wood",
+  "block.lemon-tree.stripped_golden_citrus_log": "Stripped Golden Citrus Log",
+  "block.lemon-tree.stripped_golden_citrus_wood": "Stripped Golden Citrus Wood",
+
+  "block.lemon-tree.golden_citrus_planks": "Golden Citrus Planks",
+
+  "block.lemon-tree.golden_citrus_stairs": "Golden Citrus Stairs",
+  "block.lemon-tree.golden_citrus_slab": "Golden Citrus Slab",
+  "block.lemon-tree.golden_citrus_fence": "Golden Citrus Fence",
+  "block.lemon-tree.golden_citrus_fence_gate": "Golden Citrus Fence Gate"
 }
