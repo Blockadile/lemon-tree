@@ -71,6 +71,7 @@ public class ModBlocks {
     public static final Block GOLDEN_CITRUS_FENCE_GATE = registerBlock("golden_citrus_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copy(Blocks.OAK_FENCE_GATE)));
 
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(LemonTree.MOD_ID, name), block);

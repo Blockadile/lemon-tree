@@ -1,6 +1,9 @@
 {
   "item.lemon-tree.lemon": "Lemon",
   "item.lemon-tree.lime": "Lime",
+  "item.lemon-tree.grapefruit": "Grapefruit",
+  "item.lemon-tree.ice_cubes": "Ice Cubes",
+
 
   "block.lemon-tree.green_citrus_log": "Green Citrus Log",
   "block.lemon-tree.green_citrus_wood": "Green Citrus Wood",
