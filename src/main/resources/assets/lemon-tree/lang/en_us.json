@@ -1,14 +1,25 @@
 {
   "item.lemon-tree.lemon": "Lemon",
+  "item.lemon-tree.lemon_slice": "Lemon Slice",
   "item.lemon-tree.lime": "Lime",
+  "item.lemon-tree.lime_slice": "Lime Slice",
   "item.lemon-tree.grapefruit": "Grapefruit",
+  "item.lemon-tree.grapefruit_slice": "Grapefruit Slice",
   "item.lemon-tree.ice_cubes": "Ice Cubes",
+  "item.lemon-tree.combustible_lemon": "Combustible Lemon",
+
+
+  "effect.lemon-tree.frost_resistance": "Frost Resistance",
+  "effect.lemon-tree.brain_freeze": "Brain Freeze",
+
+
+  "enchantment.lemon-tree.frost_aspect": "Frost Aspect",
 
 
   "block.lemon-tree.green_citrus_log": "Green Citrus Log",
   "block.lemon-tree.green_citrus_wood": "Green Citrus Wood",
   "block.lemon-tree.stripped_green_citrus_log": "Stripped Green Citrus Log",
-  "block.lemon-tree.stripped_green_citrus_wood": "Stripped Lemonwood Wood",
+  "block.lemon-tree.stripped_green_citrus_wood": "Stripped Green Citrus Wood",
 
   "block.lemon-tree.green_citrus_planks": "Green Citrus Planks",
 
@@ -16,6 +27,13 @@
   "block.lemon-tree.green_citrus_slab": "Green Citrus Slab",
   "block.lemon-tree.green_citrus_fence": "Green Citrus Fence",
   "block.lemon-tree.green_citrus_fence_gate": "Green Citrus Fence Gate",
+  "block.lemon-tree.green_citrus_door": "Green Citrus Door",
+  "block.lemon-tree.green_citrus_trapdoor": "Green Citrus Trapdoor",
+  "block.lemon-tree.green_citrus_pressure_plate": "Green Citrus Pressure Plate",
+  "block.lemon-tree.green_citrus_button": "Green Citrus Button",
+
+  "block.lemon-tree.lime_leaves": "Lime Leaves",
+  "block.lemon-tree.budding_lime_leaves": "Budding Lime Leaves",
 
   "block.lemon-tree.golden_citrus_log": "Golden Citrus Log",
   "block.lemon-tree.golden_citrus_wood": "Golden Citrus Wood",
@@ -27,5 +45,38 @@
   "block.lemon-tree.golden_citrus_stairs": "Golden Citrus Stairs",
   "block.lemon-tree.golden_citrus_slab": "Golden Citrus Slab",
   "block.lemon-tree.golden_citrus_fence": "Golden Citrus Fence",
-  "block.lemon-tree.golden_citrus_fence_gate": "Golden Citrus Fence Gate"
+  "block.lemon-tree.golden_citrus_fence_gate": "Golden Citrus Fence Gate",
+  "block.lemon-tree.golden_citrus_door": "Golden Citrus Door",
+  "block.lemon-tree.golden_citrus_trapdoor": "Golden Citrus Trapdoor",
+  "block.lemon-tree.golden_citrus_pressure_plate": "Golden Citrus Pressure Plate",
+  "block.lemon-tree.golden_citrus_button": "Golden Citrus Button",
+
+  "block.lemon-tree.lemon_leaves": "Lemon Leaves",
+  "block.lemon-tree.budding_lemon_leaves": "Budding Lemon Leaves",
+
+  "block.lemon-tree.pink_citrus_log": "Pink Citrus Log",
+  "block.lemon-tree.pink_citrus_wood": "Pink Citrus Wood",
+  "block.lemon-tree.stripped_pink_citrus_log": "Stripped Pink Citrus Log",
+  "block.lemon-tree.stripped_pink_citrus_wood": "Stripped Pink Citrus Wood",
+
+  "block.lemon-tree.pink_citrus_planks": "Pink Citrus Planks",
+
+  "block.lemon-tree.pink_citrus_stairs": "Pink Citrus Stairs",
+  "block.lemon-tree.pink_citrus_slab": "Pink Citrus Slab",
+  "block.lemon-tree.pink_citrus_fence": "Pink Citrus Fence",
+  "block.lemon-tree.pink_citrus_fence_gate": "Pink Citrus Fence Gate",
+  "block.lemon-tree.pink_citrus_door": "Pink Citrus Door",
+  "block.lemon-tree.pink_citrus_trapdoor": "Pink Citrus Trapdoor",
+  "block.lemon-tree.pink_citrus_pressure_plate": "Pink Citrus Pressure Plate",
+  "block.lemon-tree.pink_citrus_button": "Pink Citrus Button",
+
+  "block.lemon-tree.grapefruit_leaves": "Grapefruit Leaves",
+  "block.lemon-tree.budding_grapefruit_leaves": "Budding Grapefruit Leaves",
+
+  "block.lemon-tree.pink_hydrangea": "Pink Hydrangea",
+  "block.lemon-tree.big_pink_hydrangea": "Big Pink Hydrangea",
+  "block.lemon-tree.orange_hydrangea": "Orange Hydrangea",
+  "block.lemon-tree.big_orange_hydrangea": "Big Orange Hydrangea",
+  "block.lemon-tree.yellow_hydrangea": "Yellow Hydrangea",
+  "block.lemon-tree.big_yellow_hydrangea": "Big Yellow Hydrangea"
 }

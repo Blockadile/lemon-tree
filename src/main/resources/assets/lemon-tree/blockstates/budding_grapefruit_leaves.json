@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "lemon-tree:block/budding_citrus_leaves"
+    },
+    "age=1": {
+      "model": "lemon-tree:block/flowering_citrus_leaves"
+    },
+    "age=2": {
+      "model": "lemon-tree:block/citrus_leaves_grapefruit"
+    }
+  }
+}

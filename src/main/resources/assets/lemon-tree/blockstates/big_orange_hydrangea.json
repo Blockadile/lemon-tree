@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "lemon-tree:block/big_orange_hydrangea_bottom"
+    },
+    "half=upper": {
+      "model": "lemon-tree:block/big_orange_hydrangea_top"
+    }
+  }
+}

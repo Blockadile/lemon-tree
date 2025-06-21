@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lemon-tree:block/pink_citrus_log_top",
+    "side": "lemon-tree:block/citrus_log"
+  }
+}

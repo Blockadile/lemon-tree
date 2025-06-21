@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "lemon-tree:block/pink_hydrangea_top"
+  }
+}

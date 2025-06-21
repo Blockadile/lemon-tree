@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"6": "lemon-tree:block/big_yellow_hydrangea_bottom",
+		"particle": "lemon-tree:block/big_yellow_hydrangea_bottom"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 8],
+			"to": [24, 16, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#6"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#6"}
+			}
+		},
+		{
+			"from": [-8, 0, 8],
+			"to": [24, 16, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#6"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#6"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "big_hydrangea",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

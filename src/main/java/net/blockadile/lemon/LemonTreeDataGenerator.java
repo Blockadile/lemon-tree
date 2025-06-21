@@ -1,11 +1,11 @@
 package net.blockadile.lemon;
 
-import net.blockadile.lemon.datagen.ModBlockTagProvider;
-import net.blockadile.lemon.datagen.ModItemTagProvider;
-import net.blockadile.lemon.datagen.ModLootTableProvider;
-import net.blockadile.lemon.datagen.ModModelProvider;
+import net.blockadile.lemon.datagen.*;
+import net.blockadile.lemon.enchantment.ModEnchantments;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class LemonTreeDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,5 +16,11 @@ public class LemonTreeDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 	}
 }
