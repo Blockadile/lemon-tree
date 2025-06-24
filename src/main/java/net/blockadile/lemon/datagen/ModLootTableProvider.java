@@ -50,5 +50,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_CITRUS_FENCE_GATE);
         addDrop(ModBlocks.PINK_CITRUS_DOOR, doorDrops(ModBlocks.PINK_CITRUS_DOOR));
         addDrop(ModBlocks.PINK_CITRUS_TRAPDOOR);
+
+
+        addDrop(ModBlocks.LIME_SAPLING);
+        addDrop(ModBlocks.LEMON_SAPLING);
+        addDrop(ModBlocks.GRAPEFRUIT_SAPLING);
+
+
+        addDrop(ModBlocks.PINK_HYDRANGEA);
+        addDrop(ModBlocks.BIG_PINK_HYDRANGEA);
+        addDrop(ModBlocks.ORANGE_HYDRANGEA);
+        addDrop(ModBlocks.BIG_ORANGE_HYDRANGEA);
+        addDrop(ModBlocks.YELLOW_HYDRANGEA);
+        addDrop(ModBlocks.BIG_YELLOW_HYDRANGEA);
+
+
+        addDrop(ModBlocks.LIME_LEAVES, leavesDrops(ModBlocks.LIME_LEAVES, ModBlocks.LIME_SAPLING, 0.0625F));
+        addDrop(ModBlocks.BUDDING_LIME_LEAVES, leavesDrops(ModBlocks.BUDDING_LIME_LEAVES, ModBlocks.LIME_SAPLING, 0.0625F));
+        addDrop(ModBlocks.LEMON_LEAVES, leavesDrops(ModBlocks.LEMON_LEAVES, ModBlocks.LEMON_SAPLING, 0.0625F));
+        addDrop(ModBlocks.BUDDING_LEMON_LEAVES, leavesDrops(ModBlocks.BUDDING_LEMON_LEAVES, ModBlocks.LEMON_SAPLING, 0.0625F));
+        addDrop(ModBlocks.GRAPEFRUIT_LEAVES, leavesDrops(ModBlocks.GRAPEFRUIT_LEAVES, ModBlocks.GRAPEFRUIT_SAPLING, 0.0625F));
+        addDrop(ModBlocks.BUDDING_GRAPEFRUIT_LEAVES, leavesDrops(ModBlocks.BUDDING_GRAPEFRUIT_LEAVES, ModBlocks.GRAPEFRUIT_SAPLING, 0.0625F));
     }
 }

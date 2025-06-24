@@ -1,10 +1,8 @@
 package net.blockadile.lemon.block;
 
 import net.blockadile.lemon.LemonTree;
-import net.blockadile.lemon.block.custom.BigHydrangea;
-import net.blockadile.lemon.block.custom.BuddingLemonLeaves;
-import net.blockadile.lemon.block.custom.BuddingLimeLeaves;
-import net.blockadile.lemon.block.custom.Hydrangea;
+import net.blockadile.lemon.block.custom.*;
+import net.blockadile.lemon.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -174,12 +172,16 @@ public class ModBlocks {
     public static final Block GRAPEFRUIT_LEAVES = registerBlock("grapefruit_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()));
     public static final Block BUDDING_GRAPEFRUIT_LEAVES = registerBlock("budding_grapefruit_leaves",
-            new BuddingLimeLeaves(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque().ticksRandomly()));
+            new BuddingGrapefruitLeaves(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque().ticksRandomly()));
 
 
     //Saplings
-    /*public static final Block LEMON_SAPLING = registerBlock("lemon_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copy(Blocks.OAK_SAPLING)));*/
+    public static final Block LIME_SAPLING = registerBlock("lime_sapling",
+            new SaplingBlock(ModSaplingGenerators.LIME_TREE, FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
+    public static final Block LEMON_SAPLING = registerBlock("lemon_sapling",
+            new SaplingBlock(ModSaplingGenerators.LEMON_TREE, FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
+    public static final Block GRAPEFRUIT_SAPLING = registerBlock("grapefruit_sapling",
+            new SaplingBlock(ModSaplingGenerators.GRAPEFRUIT_TREE, FabricBlockSettings.copy(Blocks.OAK_SAPLING)));
 
 
     //Hydrangeas
@@ -265,6 +267,11 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.PINK_CITRUS_LOG);
             fabricItemGroupEntries.add(ModBlocks.GRAPEFRUIT_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.BUDDING_GRAPEFRUIT_LEAVES);
+
+            fabricItemGroupEntries.add(ModBlocks.LIME_SAPLING);
+            fabricItemGroupEntries.add(ModBlocks.LEMON_SAPLING);
+            fabricItemGroupEntries.add(ModBlocks.GRAPEFRUIT_SAPLING);
+
             fabricItemGroupEntries.add(ModBlocks.PINK_HYDRANGEA);
             fabricItemGroupEntries.add(ModBlocks.BIG_PINK_HYDRANGEA);
             fabricItemGroupEntries.add(ModBlocks.ORANGE_HYDRANGEA);

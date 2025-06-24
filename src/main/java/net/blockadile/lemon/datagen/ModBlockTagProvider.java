@@ -130,5 +130,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BUDDING_LEMON_LEAVES)
                 .add(ModBlocks.GRAPEFRUIT_LEAVES)
                 .add(ModBlocks.BUDDING_GRAPEFRUIT_LEAVES);
+        getOrCreateTagBuilder(BlockTags.SAPLINGS)
+                .add(ModBlocks.LIME_SAPLING)
+                .add(ModBlocks.LEMON_SAPLING)
+                .add(ModBlocks.GRAPEFRUIT_SAPLING);
+        getOrCreateTagBuilder(BlockTags.TALL_FLOWERS)
+                .add(ModBlocks.PINK_HYDRANGEA)
+                .add(ModBlocks.BIG_PINK_HYDRANGEA)
+                .add(ModBlocks.ORANGE_HYDRANGEA)
+                .add(ModBlocks.BIG_ORANGE_HYDRANGEA)
+                .add(ModBlocks.YELLOW_HYDRANGEA)
+                .add(ModBlocks.BIG_YELLOW_HYDRANGEA);
     }
 }

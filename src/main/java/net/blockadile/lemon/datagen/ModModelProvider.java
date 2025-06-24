@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -40,10 +41,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_CITRUS_TRAPDOOR);
         pink_citrus_pool.pressurePlate(ModBlocks.PINK_CITRUS_PRESSURE_PLATE);
         pink_citrus_pool.button(ModBlocks.PINK_CITRUS_BUTTON);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.LIME_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.LEMON_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.GRAPEFRUIT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
+        itemModelGenerator.register(ModBlocks.LIME_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.LEMON_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.GRAPEFRUIT_SAPLING.asItem(), Models.GENERATED);
     }
 }

@@ -86,5 +86,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BUDDING_LEMON_LEAVES.asItem())
                 .add(ModBlocks.GRAPEFRUIT_LEAVES.asItem())
                 .add(ModBlocks.BUDDING_GRAPEFRUIT_LEAVES.asItem());
+        getOrCreateTagBuilder(ItemTags.SAPLINGS)
+                .add(ModBlocks.LIME_SAPLING.asItem())
+                .add(ModBlocks.LEMON_SAPLING.asItem())
+                .add(ModBlocks.GRAPEFRUIT_SAPLING.asItem());
+        getOrCreateTagBuilder(ItemTags.TALL_FLOWERS)
+                .add(ModBlocks.PINK_HYDRANGEA.asItem())
+                .add(ModBlocks.BIG_PINK_HYDRANGEA.asItem())
+                .add(ModBlocks.ORANGE_HYDRANGEA.asItem())
+                .add(ModBlocks.BIG_ORANGE_HYDRANGEA.asItem())
+                .add(ModBlocks.YELLOW_HYDRANGEA.asItem())
+                .add(ModBlocks.BIG_YELLOW_HYDRANGEA.asItem());
     }
 }
