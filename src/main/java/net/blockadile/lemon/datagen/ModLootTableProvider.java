@@ -57,12 +57,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRAPEFRUIT_SAPLING);
 
 
-        addDrop(ModBlocks.PINK_HYDRANGEA);
-        addDrop(ModBlocks.BIG_PINK_HYDRANGEA);
-        addDrop(ModBlocks.ORANGE_HYDRANGEA);
-        addDrop(ModBlocks.BIG_ORANGE_HYDRANGEA);
-        addDrop(ModBlocks.YELLOW_HYDRANGEA);
-        addDrop(ModBlocks.BIG_YELLOW_HYDRANGEA);
+        addDrop(ModBlocks.PINK_HYDRANGEA, doorDrops(ModBlocks.PINK_HYDRANGEA));
+        addDrop(ModBlocks.BIG_PINK_HYDRANGEA, doorDrops(ModBlocks.BIG_PINK_HYDRANGEA));
+        addDrop(ModBlocks.ORANGE_HYDRANGEA, doorDrops(ModBlocks.ORANGE_HYDRANGEA));
+        addDrop(ModBlocks.BIG_ORANGE_HYDRANGEA, doorDrops(ModBlocks.BIG_ORANGE_HYDRANGEA));
+        addDrop(ModBlocks.YELLOW_HYDRANGEA, doorDrops(ModBlocks.YELLOW_HYDRANGEA));
+        addDrop(ModBlocks.BIG_YELLOW_HYDRANGEA, doorDrops(ModBlocks.BIG_YELLOW_HYDRANGEA));
 
 
         addDrop(ModBlocks.LIME_LEAVES, leavesDrops(ModBlocks.LIME_LEAVES, ModBlocks.LIME_SAPLING, 0.0625F));

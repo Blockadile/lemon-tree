@@ -43,7 +43,7 @@ public class BuddingGrapefruitLeaves extends LeavesBlock implements Fertilizable
     @Override
     protected void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         int age = state.get(AGE);
-        if (age < MAX_AGE && random.nextInt(20) == 1) {
+        if (age < MAX_AGE && random.nextInt(40) == 1) {
             BlockState blockState = state.with(AGE, age + 1);
             world.setBlockState(pos, blockState, 2);
             world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(blockState));
@@ -54,7 +54,7 @@ public class BuddingGrapefruitLeaves extends LeavesBlock implements Fertilizable
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         if (!world.isClient) {
             int age = state.get(AGE);
-            int drops = 1 + world.random.nextInt(2);
+            int drops = 2 + world.random.nextInt(2);
             if (age == MAX_AGE) {
                 dropStack(world, pos, new ItemStack(ModItems.GRAPEFRUIT, drops));
                 world.playSound(null, pos, SoundEvents.BLOCK_SWEET_BERRY_BUSH_PICK_BERRIES, SoundCategory.BLOCKS, 1.0f, 0.8f);

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "slice",
+  "ingredients": [
+    {
+      "item": "lemon-tree:lemon"
+    },
+    {
+      "item": "lemon-tree:lemon"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "lemon-tree:lemon_slice"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "lemon-tree:lemon_slice"
+    },
+    "C": {
+      "item": "lemon-tree:cream_cheese"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "LLL",
+    "WSW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lemon-tree:lemon_delight"
+  }
+}

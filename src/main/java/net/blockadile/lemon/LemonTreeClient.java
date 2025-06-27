@@ -31,8 +31,5 @@ public class LemonTreeClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEMON_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAPEFRUIT_SAPLING, RenderLayer.getCutout());
-
-
-        ParticleFactoryRegistry.getInstance().register(ModParticles.BRAIN_FREEZE_PARTICLE, BrainFreezeParticle.Factory::new);
     }
 }

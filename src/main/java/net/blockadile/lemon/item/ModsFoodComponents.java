@@ -32,9 +32,11 @@ public class ModsFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 0.10F).build();
     public static final FoodComponent KEY_LIME_PIE = new FoodComponent.Builder().nutrition(9).saturationModifier(0.40f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 0), 0.30F).build();
+    public static final FoodComponent LIME_CAKE = new FoodComponent.Builder().nutrition(7).saturationModifier(0.45f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 0), 0.20F).build();
     public static final FoodComponent GRAPEFRUIT_CUPCAKES = new FoodComponent.Builder().nutrition(9).saturationModifier(0.30f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 200, 0), 0.25F).build();
+            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 0), 0.25F).build();
     public static final FoodComponent GRAPEFRUIT_TART = new FoodComponent.Builder().nutrition(8).saturationModifier(0.30f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 300, 0), 0.15F).build();
+            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 300, 0), 0.15F).build();
 
 }

@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"net.blockadile.lemon.LemonTreeClient"
+		],
+		"terrablender": [
+			"net.blockadile.lemon.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

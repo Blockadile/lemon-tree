@@ -1,6 +1,7 @@
 package net.blockadile.lemon.datagen;
 
 import net.blockadile.lemon.block.ModBlocks;
+import net.blockadile.lemon.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
@@ -97,5 +98,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BIG_ORANGE_HYDRANGEA.asItem())
                 .add(ModBlocks.YELLOW_HYDRANGEA.asItem())
                 .add(ModBlocks.BIG_YELLOW_HYDRANGEA.asItem());
+
+        getOrCreateTagBuilder(ModTags.items.GREEN_CITRUS_LOGS)
+                .add(ModBlocks.GREEN_CITRUS_LOG.asItem())
+                .add(ModBlocks.GREEN_CITRUS_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_GREEN_CITRUS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_GREEN_CITRUS_WOOD.asItem());
+
+        getOrCreateTagBuilder(ModTags.items.GOLDEN_CITRUS_LOGS)
+                .add(ModBlocks.GOLDEN_CITRUS_LOG.asItem())
+                .add(ModBlocks.GOLDEN_CITRUS_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_GOLDEN_CITRUS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_GOLDEN_CITRUS_WOOD.asItem());
+
+        getOrCreateTagBuilder(ModTags.items.PINK_CITRUS_LOGS)
+                .add(ModBlocks.PINK_CITRUS_LOG.asItem())
+                .add(ModBlocks.PINK_CITRUS_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PINK_CITRUS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PINK_CITRUS_WOOD.asItem());
     }
 }

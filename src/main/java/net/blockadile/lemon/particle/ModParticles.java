@@ -9,9 +9,6 @@ import net.minecraft.util.Identifier;
 
 public class ModParticles {
 
-    public static final SimpleParticleType BRAIN_FREEZE_PARTICLE = registerParticle("brain_freeze_particle.json",
-            FabricParticleTypes.simple());
-
     private static SimpleParticleType registerParticle(String name, SimpleParticleType particleType) {
         return Registry.register(Registries.PARTICLE_TYPE, Identifier.of(LemonTree.MOD_ID, name), particleType);
     }

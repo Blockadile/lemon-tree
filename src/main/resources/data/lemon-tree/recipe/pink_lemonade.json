@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "slice",
+  "ingredients": [
+    {
+      "item": "lemon-tree:grapefruit"
+    },
+    {
+      "item": "lemon-tree:ice_cubes"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "lemon-tree:pink_lemonade"
+  }
+}

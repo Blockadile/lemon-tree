@@ -6,6 +6,8 @@ import net.blockadile.lemon.enchantment.ModEnchantmentEffects;
 import net.blockadile.lemon.entity.ModEntities;
 import net.blockadile.lemon.item.ModItems;
 import net.blockadile.lemon.particle.ModParticles;
+import net.blockadile.lemon.world.biome.ModBiomes;
+import net.blockadile.lemon.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -28,6 +30,7 @@ public class LemonTree implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModEffects.registerEffects();
 		ModEnchantmentEffects.registerEnchantmentEffects();
+		ModWorldGeneration.generateModWorld();
 
 
 		StrippableBlockRegistry.register(ModBlocks.GREEN_CITRUS_LOG, ModBlocks.STRIPPED_GREEN_CITRUS_LOG);

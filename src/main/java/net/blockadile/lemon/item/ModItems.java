@@ -46,8 +46,8 @@ public class ModItems {
     public static final Item LEMON_BAR = registerItem("lemon_bar", new Item(new Item.Settings().food(ModsFoodComponents.LEMON_BAR)));
     //Key Lime Pie
     public static final Item KEY_LIME_PIE = registerItem("key_lime_pie", new Item(new Item.Settings().food(ModsFoodComponents.KEY_LIME_PIE)));
-    //Mid-Lime Food
-
+    //Lime cake
+    public static final Item LIME_CAKE = registerItem("lime_cake", new Item(new Item.Settings().food(ModsFoodComponents.LIME_CAKE)));
     //Lime Bar
     public static final Item LIME_BAR = registerItem("lime_bar", new Item(new Item.Settings().food(ModsFoodComponents.LIME_BAR)));
     //Grapefruit cupcake
@@ -81,7 +81,7 @@ public class ModItems {
             fabricItemGroupEntries.add(LEMON_BAR);
             fabricItemGroupEntries.add(LIME_WATER);
             fabricItemGroupEntries.add(KEY_LIME_PIE);
-            //Mid-Lime food
+            fabricItemGroupEntries.add(LIME_CAKE);
             fabricItemGroupEntries.add(LIME_BAR);
             fabricItemGroupEntries.add(PINK_LEMONADE);
             fabricItemGroupEntries.add(GRAPEFRUIT_CUPCAKES);

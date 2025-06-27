@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lemon-tree:lime"
+    },
+    {
+      "item": "lemon-tree:lime"
+    },
+    {
+      "item": "lemon-tree:lime"
+    },
+    {
+      "item": "lemon-tree:cream_cheese"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "lemon-tree:lime_cake"
+  }
+}

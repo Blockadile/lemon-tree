@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "lemon-tree:grapefruit_slice"
+    },
+    "C": {
+      "item": "lemon-tree:cream_cheese"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "GCS",
+    "GEG",
+    "SCG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lemon-tree:grapefruit_cupcakes"
+  }
+}

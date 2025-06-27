@@ -43,7 +43,7 @@ public class BuddingLimeLeaves extends LeavesBlock implements Fertilizable {
     @Override
     protected void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         int age = state.get(AGE);
-        if (age < MAX_AGE && random.nextInt(20) == 1) {
+        if (age < MAX_AGE && random.nextInt(40) == 1) {
             BlockState blockState = state.with(AGE, age + 1);
             world.setBlockState(pos, blockState, 2);
             world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(blockState));
