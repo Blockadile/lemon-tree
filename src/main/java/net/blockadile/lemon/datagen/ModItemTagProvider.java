@@ -116,5 +116,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PINK_CITRUS_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_PINK_CITRUS_LOG.asItem())
                 .add(ModBlocks.STRIPPED_PINK_CITRUS_WOOD.asItem());
+        getOrCreateTagBuilder(ItemTags.FLOWERS)
+                .add(ModBlocks.LANTERN_HEARTS.asItem());
     }
 }

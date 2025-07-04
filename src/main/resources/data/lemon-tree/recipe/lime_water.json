@@ -12,17 +12,23 @@
       "item": "lemon-tree:lime_slice"
     },
     {
-      "item": "lemon-tree:cream_cheese"
+      "item": "minecraft:sugar"
     },
     {
       "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:egg"
+      "item": "lemon-tree:ice_cubes"
+    },
+    {
+      "item": "lemon-tree:ice_cubes"
+    },
+    {
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
     "count": 1,
-    "id": "lemon-tree:lime_cake"
+    "id": "lemon-tree:lime_water"
   }
 }

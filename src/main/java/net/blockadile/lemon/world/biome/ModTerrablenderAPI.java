@@ -9,6 +9,6 @@ import terrablender.api.TerraBlenderApi;
 public class ModTerrablenderAPI implements TerraBlenderApi {
     @Override
     public void onTerraBlenderInitialized() {
-        Regions.register(new ModOverworldRegion(Identifier.of(LemonTree.MOD_ID, "citrus_fields"), RegionType.OVERWORLD, 3));
+        Regions.register(new ModOverworldRegion(Identifier.of(LemonTree.MOD_ID, "citrus_fields"), RegionType.OVERWORLD, 4));
     }
 }

@@ -27,7 +27,7 @@ public class ModOverworldRegion extends Region {
                     .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.HUMID, ParameterUtils.Humidity.WET))
                     .continentalness(ParameterUtils.Continentalness.MID_INLAND)
                     .erosion(ParameterUtils.Erosion.EROSION_4, ParameterUtils.Erosion.EROSION_5)
-                    .depth(ParameterUtils.Depth.SURFACE, ParameterUtils.Depth.FLOOR)
+                    .depth(ParameterUtils.Depth.FULL_RANGE)
                     .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_ASCENDING, ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
                     .build().forEach(point -> builder.add(point, ModBiomes.CITRUS_FIELDS));
 

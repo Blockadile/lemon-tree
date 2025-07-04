@@ -1,15 +1,9 @@
 package net.blockadile.lemon;
 
 import net.blockadile.lemon.block.ModBlocks;
-import net.blockadile.lemon.particle.BrainFreezeParticle;
-import net.blockadile.lemon.particle.ModParticles;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
-import net.minecraft.client.particle.EndRodParticle;
-import net.minecraft.client.particle.ParticleFactory;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.particle.EntityEffectParticleEffect;
 
 public class LemonTreeClient implements ClientModInitializer {
     @Override
@@ -31,5 +25,7 @@ public class LemonTreeClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEMON_SAPLING, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAPEFRUIT_SAPLING, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LANTERN_HEARTS, RenderLayer.getCutout());
     }
 }

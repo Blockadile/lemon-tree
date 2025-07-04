@@ -141,5 +141,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BIG_ORANGE_HYDRANGEA)
                 .add(ModBlocks.YELLOW_HYDRANGEA)
                 .add(ModBlocks.BIG_YELLOW_HYDRANGEA);
+        getOrCreateTagBuilder(BlockTags.FLOWERS)
+                .add(ModBlocks.LANTERN_HEARTS);
     }
 }

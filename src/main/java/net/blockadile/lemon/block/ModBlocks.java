@@ -6,6 +6,7 @@ import net.blockadile.lemon.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.component.type.SuspiciousStewEffectsComponent;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -198,6 +199,10 @@ public class ModBlocks {
     public static final TallFlowerBlock BIG_YELLOW_HYDRANGEA = (TallFlowerBlock) registerBlock("big_yellow_hydrangea",
             new BigHydrangea(FabricBlockSettings.copy(Blocks.ROSE_BUSH).nonOpaque()));
 
+    //Lantern Hearts
+    public static final FlowerBlock LANTERN_HEARTS = (FlowerBlock) registerBlock("lantern_hearts",
+            new FlowerBlock(SuspiciousStewEffectsComponent.DEFAULT, FabricBlockSettings.copy(Blocks.DANDELION).nonOpaque().luminance(state -> 15)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -278,6 +283,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.BIG_ORANGE_HYDRANGEA);
             fabricItemGroupEntries.add(ModBlocks.YELLOW_HYDRANGEA);
             fabricItemGroupEntries.add(ModBlocks.BIG_YELLOW_HYDRANGEA);
+            fabricItemGroupEntries.add(ModBlocks.LANTERN_HEARTS);
         });
     }
 }

@@ -4,13 +4,16 @@
   "group": "slice",
   "ingredients": [
     {
-      "item": "lemon-tree:grapefruit"
+      "item": "lemon-tree:grapefruit_slice"
     },
     {
       "item": "lemon-tree:ice_cubes"
     },
     {
       "item": "minecraft:sugar"
+    },
+    {
+      "item": "lemon-tree:lemonade"
     }
   ],
   "result": {

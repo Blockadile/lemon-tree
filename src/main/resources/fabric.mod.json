@@ -3,9 +3,9 @@
 	"id": "lemon-tree",
 	"version": "${version}",
 	"name": "Lemon Tree",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple mod about Citrus fruits and citrus desserts!",
 	"authors": [
-		"Me!"
+		"Blockadile"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -35,7 +35,8 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"Terrablender": "4.1.0.8"
 	},
 	"suggests": {
 		"another-mod": "*"
